@@ -49,7 +49,7 @@ plot(
     label="",
     marker=:c,
     xlabel=L"$h$",
-    ylabel="Correct places",
+    ylabel="Casas decimais corretas",
     xticks=[1e-14,1e-12,1e-10,1e-8,1e-6,1e-4,1e-2],
     linecolor="#0065d9",
     markercolor="#0065d9",
@@ -58,12 +58,12 @@ plot(
 plot!(
     [best_h],
     [best_correct_places],
-    label=L"Best $h$",
+    label=L"Melhor $h$",
     marker=:c,
     linecolor="#ffffff",
     markercolor="#8f00c7",
     markerstrokecolor="#6c0096"
 )
-title!("Number of correct places in centered difference")
+title!("Precisão do método da diferença centrada")
 
 savefig("plot.png")
