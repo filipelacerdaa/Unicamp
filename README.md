@@ -1,2 +1,2 @@
 # Unicamp
-Trabalhos pessoais para a universidade.
+Repositório destinado a centralizar algumas atividades de programação que realizei durante a graduação.
