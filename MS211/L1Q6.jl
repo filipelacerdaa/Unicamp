@@ -30,7 +30,7 @@ function centered_diff(func, x, h)
 end
 
 
-exponents = LinRange(-1, -14, 28)
+exponents = LinRange(-1, -14, 14)
 h_values = 10.0.^exponents
 
 point = 25.0
